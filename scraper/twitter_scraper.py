@@ -28,7 +28,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.firefox import GeckoDriverManager
 
-TWITTER_LOGIN_URL = "https://twitter.com/i/flow/login"
+TWITTER_LOGIN_URL = "https://x.com/i/flow/login"
 
 
 class Twitter_Scraper:
