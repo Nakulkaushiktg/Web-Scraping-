@@ -319,7 +319,7 @@ It may be due to the following:
             print("Username is not set.")
             sys.exit(1)
         else:
-            self.driver.get(f"https://twitter.com/{self.scraper_details['username']}")
+            self.driver.get(f"https://x.com/{self.scraper_details['username']}")
             sleep(3)
         pass
 
@@ -331,7 +331,7 @@ It may be due to the following:
             print("Hashtag is not set.")
             sys.exit(1)
         else:
-            url = f"https://twitter.com/hashtag/{self.scraper_details['hashtag']}?src=hashtag_click"
+            url = f"https://x.com/hashtag/{self.scraper_details['hashtag']}?src=hashtag_click"
             if self.scraper_details["tab"] == "Latest":
                 url += "&f=live"
 
@@ -344,7 +344,7 @@ It may be due to the following:
             print("Query is not set.")
             sys.exit(1)
         else:
-            url = f"https://twitter.com/search?q={self.scraper_details['query']}&src=typed_query"
+            url = f"https://x.com/search?q={self.scraper_details['query']}&src=typed_query"
             if self.scraper_details["tab"] == "Latest":
                 url += "&f=live"
 
